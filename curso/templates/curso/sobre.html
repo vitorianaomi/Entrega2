@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+    Sobre
+{% endblock %}
+
+{% block body %}
+<h2>Quem sou eu?</h2>
+<hr>
+<h6>{{ descrição }}</h6>
+<hr>
+<div class="container-fluid mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <img src="{% static 'img/Vitória.JPG' %}" alt="foto" style="height: 450px;">
+                    <hr style="height: auto;">
+                    <p class="card-text">Olá! Meu nome é Vitória Naomí Martins Reis! Sou natural de Almino Afonso-RN e resido nesta mesma cidade; tenho 18 anos e nasci em 15/10/2004. Atualmente, sou aluna do IFRN Campus Pau dos Ferros e estou no 4° ano do curso técnico integrado de informática.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

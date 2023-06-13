@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block body %}
+<h2>IFRN - Pau dos Ferros</h2>
+<p></p>
+<h6>{{ mensagem }}</h6>
+<hr>
+<p>Com oferta anual que ultrapassa 6 mil vagas em diversos níveis, formas e modalidades de curso, o IFRN organiza o acesso de estudantes tanto através de processos de seleção internos como também se utiliza de processos nacionais, como o Sistema de Seleção Unificada (SiSU), utilizando as notas do Exame Nacional do Ensino Médio (Enem).</p>
+<p>Principais categorias de processos seletivos no Campus Pau dos Ferros: Bolsas para estudantes; Programas de Assistência Estudantil; Especialização; Graduação; ProITEC; Qualificação Profissional (FIC); Reingresso; Técnico Integrado - Exame de Seleção; Técnico Subsequente; Transferência Facultativa</p>
+<p>É na região do Alto Oeste Potiguar, mais precisamente no Bairro Chico Cajá, que está localizado o Campus Pau dos Ferros do Instituto Federal do Rio Grande do Norte (IFRN). A unidade, fundada em 23 de setembro de 2009, compõe a II Fase do Plano de Expansão da Rede Federal de Educação Profissional, Científica e Tecnológica (RFEPCT), do Ministério da Educação, iniciada em 2007.</p>
+<p>Com capacidade para 1.200 estudantes, a escola oferta cursos técnicos integrados ao Ensino Médio nas áreas de Alimentos, de Apicultura e de Informática. Há também a oferta de graduações, como a Licenciatura em Química e as Tecnologias em Análise e Desenvolvimento de Sistemas e em Agroindústria. Há, ainda, a Especialização em Ensino de Ciências Naturais e Matemática.</p>
+<p>A agricultura de Pau dos Ferros é, sobretudo, de subsistência, ou seja, produzir para consumir, com destaque para o cultivo de feijão, de batata-doce e de milho. Assim, os cursos ofertados pela instituição colaboram com o desenvolvimento social e econômico do município, cuja principal fonte de renda é o comércio varejista.</p>
+<p>O Campus Pau dos Ferros possui, proporcionalmente, a maior produção científica de artigos, livros etc. Outra curiosidade é que a escola, assim como a unidade Natal - Central, produz sua própria alimentação. O Campus do IFRN em Pau dos Ferros possui, ainda, a Incubadora Tecnológica do Alto Oeste (Itao), fundada em 2021, que promove ações, como palestras, oficinas, capacitações, concursos de ideias extensivo à comunidade externa, entre outras, instigando, assim. o processo de inovação e empreendedorismo na região.</p>
+<hr>
+<p>Aqui você pode ver:</p>
+<ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'lista_cursos' %}">Nossos cursos</a>
+    </li>
+</ul>
+<p></p>
+<p></p>
+{% endblock %}
